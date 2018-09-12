@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ServletPractice3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FirstSession</display-name>
+    <servlet-name>FirstSession</servlet-name>
+    <servlet-class>com.bjsxt.FirstSession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstSession</servlet-name>
+    <url-pattern>/FirstSession.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SecondSession</display-name>
+    <servlet-name>SecondSession</servlet-name>
+    <servlet-class>com.bjsxt.SecondSession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondSession</servlet-name>
+    <url-pattern>/SecondSession.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SecondSession2</display-name>
+    <servlet-name>SecondSession2</servlet-name>
+    <servlet-class>com.bjsxt.SecondSession2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondSession2</servlet-name>
+    <url-pattern>/SecondSession2.do</url-pattern>
+  </servlet-mapping>
+</web-app>
